@@ -1,0 +1,23 @@
+{
+  "name": "french-fries-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate:video": "node scripts/generate-video.js"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.6",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.4"
+  }
+}
